@@ -60,4 +60,10 @@ public class Planets implements Comportement {
     public void setMySoleil(Soleil mySoleil) {
         this.mySoleil = mySoleil;
     }
+
+    @Override
+    public String toString() {
+
+        return String.format("Cette planet ce nomme, %s son soleil est %s et elle a une circonférence de %s",this.name, this.mySoleil, this.circumference);
+    }
 }
