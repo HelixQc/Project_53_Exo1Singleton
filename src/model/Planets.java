@@ -1,6 +1,5 @@
 package model;
 import control.Comportement;
-import data.PlanetsDAO;
 
 import java.util.List;
 
