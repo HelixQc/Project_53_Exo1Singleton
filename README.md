@@ -1,3 +1,15 @@
+```mermaid
+classDiagram
+direction BT
+class Astre
+class IAJouterSatellite {
+<<Interface>>
++ ajouterSatellite(Astre) void
+  }
+  class IAffichable {
+  <<Interface>>
++ Afficher() void
+  }
   class IOrbiteAutour {
   <<Interface>>
 + Orbiter(Astre) void
@@ -19,7 +31,7 @@
 + Afficher() void
 + Orbiter(Astre) void
   }
-```mermaid
+
 Planet  -->  Astre
 Planet  ..>  IAJouterSatellite
 Planet  ..>  IAffichable
@@ -28,4 +40,4 @@ Soleil  -->  Astre
 Soleil  ..>  IAJouterSatellite
 Soleil  ..>  IAffichable
 Terre  -->  Planet 
-```
+````
